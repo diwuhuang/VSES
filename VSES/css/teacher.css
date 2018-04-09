@@ -1,0 +1,93 @@
+.top{
+    height: 60px;
+    width: 100%;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    /*background-color: black;*/
+    overflow: hidden;
+}
+.top .row{
+    width: 100%;
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+.top_logo{
+    height: 60px;
+    width: 45%;
+    float: left;
+    font-size: 30px;
+    line-height: 60px;
+}
+.top_input{
+    height: 33px;
+    width: 35%;
+    float: right;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.top_input input{
+    height: 33px;
+    width: 100%;
+    font-size: 1.2em;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.top_logo a{
+    color: #96b97d;
+}
+.navigation{
+    background: #96b97d;
+    height: 34px;
+}
+.navigation .row{
+    width: 100%;
+    max-width: 1140px;
+    min-width: 755px;
+    height: 34px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.navigation .row .col_nav{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 10px;
+}
+.navigation .row .col_nav ul{
+    font-size: 1.1em;
+    line-height: 34px;
+}
+.navigation .row ul>li{
+    float: left;
+    margin: 0 20px 0 0;
+}
+/*为什么找不到a标签的？？*/
+/*.navigation .row .col_nav ul li a:hover{
+    opacity: 0.5;
+}*/
+.contentAdministrator{
+    width: 100%;
+    max-width: 1140px;
+    height: 500px;
+    margin: 10px auto;
+    background-color: red;
+}
+.contentAdministrator .contentAdministratorLeft{
+    width: 200px;
+    height: 500px;
+    background-color: #96b97d;
+    float: left;
+}
+.contentAdministrator .contentAdministratorRight{
+    width: 930px;
+    height: 500px;
+    background-color: green;
+    float: right;
+}
+.contentAdministrator .contentAdministratorLeft ul li{
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+}

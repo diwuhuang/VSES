@@ -1,0 +1,209 @@
+.top{
+    height: 60px;
+    width: 100%;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    /*background-color: black;*/
+    overflow: hidden;
+}
+.top .row{
+    width: 100%;
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+.top_logo{
+    height: 60px;
+    width: 45%;
+    float: left;
+    font-size: 30px;
+    line-height: 60px;
+}
+.top_input{
+    height: 33px;
+    width: 35%;
+    float: right;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.top_input input{
+    height: 33px;
+    width: 100%;
+    font-size: 1.2em;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.top_logo a{
+    color: #96b97d;
+}
+.navigation{
+    background: #96b97d;
+    height: 34px;
+}
+.navigation .row{
+    width: 100%;
+    max-width: 1140px;
+    min-width: 755px;
+    height: 34px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.navigation .row .col_nav{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 10px;
+}
+.navigation .row .col_nav ul{
+    font-size: 1.1em;
+    line-height: 34px;
+}
+.navigation .row ul>li{
+    float: left;
+    margin: 0 20px 0 0;
+}
+/*为什么找不到a标签的？？*/
+.navigation .row .col_nav ul li a:hover{
+    opacity: 0.5;
+}
+.content{
+    margin: 10px auto;
+    width: 100%;
+    max-width: 1140px;
+    height: 500px;
+    /*background-color: red;*/
+}
+.content .contentLeft{
+    width: 200px;
+    height: 500px;
+    background-color: #96b97d;
+    float: left;
+}
+.content .contentRight{
+    width: 930px;
+    height: 500px;
+    background-color: #f6f6f6;
+    /*background-color: blue;*/
+    float: right;
+}
+.content .contentLeft ul li{
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+}
+.content .contentRight .NecExp{
+    height: 245px;
+    width: 930px;
+}
+.content .contentRight .NecExp .NecExpTop{
+    height: 245px;
+    width: 930px;
+    /*background-color: green;*/
+}
+.content .contentRight .NecExp .NecExpTop ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content .contentRight .NecExp .NecExpTop ul li{
+    float: left;
+    height: 245px;
+    width: 305px;
+    background-color: black;
+    position: relative;
+}
+.content .contentRight .NecExp .NecExpTop ul li .videoInfo{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    opacity: 0;
+}
+.content .contentRight .NecExp .NecExpTop ul li .videoInfo img{
+    width: 70px;
+    height: 70px;
+}
+.content .contentRight .NecExp .NecExpTop ul li .videoInfo p{
+    font-size: 16px;
+    color: #321a4b;
+    line-height: 40px;
+    font-weight: bold;
+}
+.content .contentRight .NecExp .NecExpTop ul li img{
+    width: 100%;
+    height: 100%;
+}
+.content .contentRight .NecExp .NecExpTop ul li:hover .videoInfo{
+    opacity: 1;
+}
+.content .contentRight .NecExp .NecExpTop ul li:hover>img{
+    opacity: 0.5;
+}
+.content .contentRight .NecExp .NecExpTop ul li:hover .videoInfo>img{
+    animation: sportTop 2s infinite;
+}
+@keyframes sportTop {
+    20%{transform: scale(0.8);}
+    40%{transform: scale(1.2);}
+    60%{transform: scale(0.9);}
+    80%{transform: scale(1);}
+    100%{transform: scale(1);}
+}
+.content .contentRight .NecExp .NecExpBot{
+    height: 245px;
+    width: 618px;
+    margin-top: 10px;
+    /*background-color: yellow;*/
+}
+.content .contentRight .NecExp .NecExpBot ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content .contentRight .NecExp .NecExpBot ul li{
+    float: left;
+    height: 245px;
+    width: 305px;
+    background-color: black;
+    position: relative;
+}
+.content .contentRight .NecExp .NecExpBot ul li>img{
+    width: 100%;
+    height: 100%;
+}
+.content .contentRight .NecExp .NecExpBot ul li .videoInfoBot>p{
+    font-size: 16px;
+    color: #321a4b;
+    line-height: 40px;
+    font-weight: bold;
+}
+.content .contentRight .NecExp .NecExpBot ul li .videoInfoBot{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    opacity: 0;
+}
+.content .contentRight .NecExp .NecExpBot ul li:hover .videoInfoBot{
+    opacity: 1;
+}
+.content .contentRight .NecExp .NecExpBot ul li:hover>img{
+    opacity: 0.5;
+}
+.content .contentRight .NecExp .NecExpBot ul li:hover .videoInfoBot>img{
+    animation: sportBot 2s infinite;
+}
+@keyframes sportBot {
+    20%{transform: scale(0.8);}
+    40%{transform: scale(1.2);}
+    60%{transform: scale(0.9);}
+    80%{transform: scale(1);}
+    100%{transform: scale(1);}
+}

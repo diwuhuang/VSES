@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>学生</title>
-    <link rel="stylesheet" href="css/student-necExp.css">
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/student-necExp.css">
 </head>
 <body>
 <!--顶部区域-->
@@ -25,12 +25,12 @@
     <div class="row">
         <div class="col_nav">
             <ul>
-                <li><a class="nav_a" href="index.html" target="_blank">首页</a></li>
+                <li><a class="nav_a" href="../index/index.html" target="_blank">首页</a></li>
                 <li><a class="nav_a" href="#">实验视频</a></li>
                 <li><a class="nav_a" href="#">芯片属性</a></li>
-                <li><a class="nav_a" href="teacher.html" target="_blank">教师</a></li>
+                <li><a class="nav_a" href="../teachers/teacher.html" target="_blank">教师</a></li>
                 <li><a class="nav_a" href="#">学生</a></li>
-                <li><a class="nav_a" href="administrator.html" target="_blank">管理员</a></li>
+                <li><a class="nav_a" href="../admin/administrator.html" target="_blank">管理员</a></li>
             </ul>
         </div>
     </div>
@@ -52,23 +52,23 @@
             <div class="NecExpTop">
                 <ul>
                     <li>
-                        <img src="images/24s.png">
+                        <img src="../../images/24s.png">
                         <div class="videoInfo">
-                            <img src="images/pause.png">
+                            <img src="../../images/pause.png">
                             <p>三态门测试(图片不对)</p>
                         </div>
                     </li>
                     <li>
-                        <img src="images/24s.png">
+                        <img src="../../images/24s.png">
                         <div class="videoInfo">
-                            <img src="images/pause.png">
+                            <img src="../../images/pause.png">
                             <p>两个二位二进制数的比较(图片不对)</p>
                         </div>
                     </li>
                     <li>
-                        <img src="images/24s.png">
+                        <img src="../../images/24s.png">
                         <div class="videoInfo">
-                            <img src="images/pause.png">
+                            <img src="../../images/pause.png">
                             <p>复位法模7计数器(图片不对)</p>
                         </div>
                     </li>
@@ -77,16 +77,16 @@
             <div class="NecExpBot">
                 <ul>
                     <li>
-                        <img src="images/24s.png">
+                        <img src="../../images/24s.png">
                         <div class="videoInfoBot">
-                            <img src="images/pause.png">
+                            <img src="../../images/pause.png">
                             <p>全加器(图片不对)</p>
                         </div>
                     </li>
                     <li>
-                        <img src="images/24s.png">
+                        <img src="../../images/24s.png">
                         <div class="videoInfoBot">
-                            <img src="images/pause.png">
+                            <img src="../../images/pause.png">
                             <p>篮球24s定时器(图片不对)</p>
                         </div>
                     </li>
@@ -116,7 +116,7 @@
             //为什么加个循环之后就不行了
         }*/
         //以下是需要优化的代码！！
-        function setopacity() {
+        function setOpacity() {
             //设置a标签的悬浮透明度，CSS找不到这里的a标签很奇怪
             nav_a[0].onmouseover=function () {
                 nav_a[0].style.opacity="0.5";
@@ -155,7 +155,7 @@
                 nav_a[5].style.opacity="1";
             };
         }
-        setopacity();
+        setOpacity();
     }
 </script>
 </body>

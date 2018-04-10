@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>老师</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/Administrator.css">
-
+    <title>管理员</title>
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/administrator.css">
 </head>
 <body>
 <!--顶部区域-->
@@ -26,12 +25,12 @@
     <div class="row">
         <div class="col_nav">
             <ul>
-                <li><a href="index.html" class="nav_a" target="_blank">首页</a></li>
+                <li><a href="../index/index.html" class="nav_a" target="_blank">首页</a></li>
                 <li><a href="#" class="nav_a">实验视频</a></li>
                 <li><a href="#" class="nav_a">芯片属性</a></li>
-                <li><a href="#" class="nav_a">教师</a></li>
-                <li><a href="student-necExp.html" class="nav_a"  target="_blank">学生</a></li>
-                <li><a href="administrator.html" class="nav_a" target="_blank">管理员</a></li>
+                <li><a href="../teachers/teacher.html" class="nav_a" target="_blank">教师</a></li>
+                <li><a href="../students/student-necExp.html" class="nav_a"  target="_blank">学生</a></li>
+                <li><a href="#" class="nav_a">管理员</a></li>
             </ul>
         </div>
     </div>
@@ -40,14 +39,11 @@
 <div class="contentAdministrator">
     <div class="contentAdministratorLeft">
         <ul>
-            <li><a href="#">新建实验</a></li>
-            <li><a href="#">布置实验</a></li>
-            <li><a href="#">发布实验</a></li>
-            <li><a href="#">批改实验结果与实验报告</a></li>
+            <li><a href="#">课程管理</a></li>
+            <li><a href="#">实验用户管理</a></li>
         </ul>
     </div>
     <div class="contentAdministratorRight">
-
     </div>
 </div>
 <!--底部区域-->
@@ -66,7 +62,7 @@
             //为什么加个循环之后就不行了
         }*/
         //以下是需要优化的代码！！
-        function setopacity() {
+        function setOpacity() {
             //设置a标签的悬浮透明度，CSS找不到这里的a标签很奇怪
             nav_a[0].onmouseover=function () {
                 nav_a[0].style.opacity="0.5";
@@ -105,7 +101,7 @@
                 nav_a[5].style.opacity="1";
             };
         }
-        setopacity();
+        setOpacity();
     }
 </script>
 </body>

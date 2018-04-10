@@ -36,28 +36,83 @@
 .top_logo a{
     color: #96b97d;
 }
-.navigation{
-    background: #96b97d;
-    height: 34px;
-}
-.navigation .row{
-    width: 100%;
-    max-width: 1140px;
-    min-width: 755px;
-    height: 34px;
+.content{
+    background: red;
     margin: 0 auto;
-    overflow: hidden;
+    width: 1140px;
+    height: 500px;
 }
-.navigation .row .col_nav{
-    width: 100%;
-    height: 100%;
-    padding: 0 0 0 10px;
+.content .login{
+    float: right;
+    width: 400px;
+    height: 350px;
+    margin-top: 75px;
+    background-color: #339999;
 }
-.navigation .row .col_nav ul{
-    font-size: 1.1em;
-    line-height: 34px;
-}
-.navigation .row ul>li{
+.content .login .login_top{
     float: left;
-    margin: 0 20px 0 0;
+    width: 400px;
+    height: 100px;
+    /*background-color: blue;*/
+}
+.content .login .login_top>div{
+    width: 400px;
+    height: 50px;
+}
+.content .login .login_top>div:nth-child(1){
+    font-size: 18px;
+    color: white;
+    line-height: 50px;
+    /*background-color: #0099cc;*/
+}
+.content .login .login_top>div:nth-child(1)>h1{
+    margin-left: 50px;
+}
+.content .login .login_top>div:nth-child(2){
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #0099cc;
+}
+.content .login .login_top>div:nth-child(2)>h1{
+    color:#96b97d ;
+}
+.content .login .login_middle{
+    float: left;
+    width: 400px;
+    height: 190px;
+    /*background-color: skyblue;*/
+}
+.content .login .login_middle .account{
+    width: 300px;
+    margin: 40px auto;
+    /*background-color: yellow;*/
+}
+.content .login .login_middle .account span{
+    font-size: 23px;
+}
+.content .login .login_middle .account input{
+    margin: 5px 5px 5px 5px;
+    width: 210px;
+    height: 26px;
+    font-size: 18px;
+}
+.content .login .login_middle .account button{
+    width: 100%;
+    height: 36px;
+    font-size: 18px;
+}
+.content .login .login_bottom{
+    float: left;
+    width: 100%;
+    height: 60px;
+    /*background-color: burlywood;*/
+}
+.content .login .login_bottom a{
+    font-size: 15px;
+    line-height: 60px;
+    margin-left: 45px;
+}
+.content .login .login_bottom a:hover{
+    color: black;
 }

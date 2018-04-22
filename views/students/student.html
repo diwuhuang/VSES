@@ -39,7 +39,7 @@
 <div class="content">
     <div class="contentLeft">
         <ul>
-            <li><a href="../students/stu-shiyan.html">必做实验</a></li>
+            <li><a href="#">必做实验</a></li>
             <li><a href="#">选做实验</a></li>
             <li><a href="#">自主实验</a></li>
             <li><a href="#">保存实验结果</a></li>
@@ -54,21 +54,21 @@
                     <li>
                         <img src="/images/24s.png">
                         <div class="videoInfo">
-                            <img src="/images/pause.png">
+                            <a href="/require_lab"><img src="/images/pause.png"></a>
                             <p>三态门测试(图片不对)</p>
                         </div>
                     </li>
                     <li>
                         <img src="/images/24s.png">
                         <div class="videoInfo">
-                            <img src="/images/pause.png">
+                            <a href="/require_lab"><img src="/images/pause.png"></a>
                             <p>两个二位二进制数的比较(图片不对)</p>
                         </div>
                     </li>
                     <li>
                         <img src="/images/24s.png">
                         <div class="videoInfo">
-                            <img src="/images/pause.png">
+                            <a href="/require_lab"><img src="/images/pause.png"></a>
                             <p>复位法模7计数器(图片不对)</p>
                         </div>
                     </li>
@@ -79,14 +79,14 @@
                     <li>
                         <img src="/images/24s.png">
                         <div class="videoInfoBot">
-                            <img src="/images/pause.png">
+                            <a href="/require_lab"><img src="/images/pause.png"></a>
                             <p>全加器(图片不对)</p>
                         </div>
                     </li>
                     <li>
                         <img src="/images/24s.png">
                         <div class="videoInfoBot">
-                            <img src="/images/pause.png">
+                            <a href="/require_lab"><img src="/images/pause.png"></a>
                             <p>篮球24s定时器(图片不对)</p>
                         </div>
                     </li>
@@ -103,60 +103,6 @@
 <!--底部区域-->
 <div class="footer"></div>
 <script>
-    window.onload=function () {
-        var nav_a=document.getElementsByClassName("nav_a");
-        console.log(nav_a);
-        /*for(var i=0;i<nav_a.length;i++){
-            nav_a[i].onmouseover=function () {
-                nav_a[i].style.opacity="0.5";
-            };
-            nav_a[i].onmouseout=function () {
-                nav_a[i].style.opacity="1";
-            };
-            //为什么加个循环之后就不行了
-        }*/
-        //以下是需要优化的代码！！
-        function setOpacity() {
-            //设置a标签的悬浮透明度，CSS找不到这里的a标签很奇怪
-            nav_a[0].onmouseover=function () {
-                nav_a[0].style.opacity="0.5";
-            };
-            nav_a[0].onmouseout=function () {
-                nav_a[0].style.opacity="1";
-            };
-            nav_a[1].onmouseover=function () {
-                nav_a[1].style.opacity="0.5";
-            };
-            nav_a[1].onmouseout=function () {
-                nav_a[1].style.opacity="1";
-            };
-            nav_a[2].onmouseover=function () {
-                nav_a[2].style.opacity="0.5";
-            };
-            nav_a[2].onmouseout=function () {
-                nav_a[2].style.opacity="1";
-            };
-            nav_a[3].onmouseover=function () {
-                nav_a[3].style.opacity="0.5";
-            };
-            nav_a[3].onmouseout=function () {
-                nav_a[3].style.opacity="1";
-            };
-            nav_a[4].onmouseover=function () {
-                nav_a[4].style.opacity="0.5";
-            };
-            nav_a[4].onmouseout=function () {
-                nav_a[4].style.opacity="1";
-            };
-            nav_a[5].onmouseover=function () {
-                nav_a[5].style.opacity="0.5";
-            };
-            nav_a[5].onmouseout=function () {
-                nav_a[5].style.opacity="1";
-            };
-        }
-        setOpacity();
-    }
 </script>
 </body>
 </html>

@@ -34,10 +34,10 @@
     vertical-align: middle;
 }
 .top_logo a{
-    color: #96b97d;
+    color: #339999;
 }
 .navigation{
-    background: #96b97d;
+    background: #339999;
     height: 34px;
 }
 .navigation .row{
@@ -61,10 +61,10 @@
     float: left;
     margin: 0 20px 0 0;
 }
-/*为什么找不到a标签的？？*/
-/*.navigation .row .col_nav ul li a:hover{
+
+.navigation .row .col_nav ul li:hover a{
     opacity: 0.5;
-}*/
+}
 .contentAdministrator{
     width: 100%;
     max-width: 1140px;
@@ -75,7 +75,7 @@
 .contentAdministrator .contentAdministratorLeft{
     width: 200px;
     height: 500px;
-    background-color: #96b97d;
+    background-color: #f6f4f0;
     float: left;
 }
 .contentAdministrator .contentAdministratorRight{
@@ -90,4 +90,13 @@
     line-height: 35px;
     text-align: center;
     font-size: 15px;
+}
+.contentAdministrator .contentAdministratorLeft ul li:nth-child(1){
+    background-color: #339999;
+}
+.contentAdministrator .contentAdministratorLeft ul li a{
+    color: black;
+}
+.contentAdministrator .contentAdministratorLeft ul li:hover a{
+    opacity: 0.5;
 }

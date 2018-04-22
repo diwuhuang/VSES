@@ -26,8 +26,14 @@ router.get('/adminLogin',function (req, res, next) {
 	res.render('adminLogin');
 });
 
-//渲染管理员登录界面
+//渲染学生必做实验界面
 router.get('/require_lab',function (req, res, next) {
 	res.render('students/require_lab');
+});
+
+//渲染教师新建实验界面
+router.get('/newLab',function (req, res, next) {
+	res.render('teachers/newLab');
+
 });
 module.exports = router;

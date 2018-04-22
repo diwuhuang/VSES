@@ -91,6 +91,7 @@
     text-align: center;
     font-size: 15px;
 }
+
 .contentAdministrator .contentAdministratorLeft ul li:nth-child(1){
     background-color: #339999;
 }
@@ -100,3 +101,11 @@
 .contentAdministrator .contentAdministratorLeft ul li:hover a{
     opacity: 0.5;
 }
+
+.contentAdministratorRight table{
+  border-collapse: collapse;
+}
+.contentAdministratorRight th, td {
+  padding: 20px;
+} 
+

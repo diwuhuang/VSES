@@ -5,6 +5,7 @@
     <title>老师</title>
     <link rel="stylesheet" href="/stylesheets/base.css">
     <link rel="stylesheet" href="/stylesheets/teacher.css">
+
 </head>
 <body>
 <!--顶部区域-->
@@ -37,17 +38,61 @@
 </div>
 <!--内容区域-->
 <div class="contentAdministrator">
-    <div class="contentAdministratorLeft">
-        <ul>
-            <li><a href="/newLab">新建实验</a></li>
-            <li><a href="#">布置实验</a></li>
-            <li><a href="#">发布实验</a></li>
-            <li><a href="#">批改实验结果与实验报告</a></li>
-        </ul>
-    </div>
-    <div class="contentAdministratorRight">
+	<div class="contentAdministratorLeft">
+		<ul>
+			<li>
+				<a href="newLab">新建实验</a>
+			</li>
+			<li>
+				<a href="#">布置实验</a>
+			</li>
+			<li>
+				<a href="#">发布实验</a>
+			</li>
+			<li>
+				<a href="#">批改实验结果与实验报告</a>
+			</li>
+		</ul>
+	</div>
+	<div class="contentAdministratorRight">
+		<center>
+			<form>
+				<table>
+					<tr>
+						<th>实验名：</th>
+						<td>
+							<input name="lab_name" type="text" />
+						</td>
+					</tr>
+					<tr>
+						<th>选用芯片：</th>
+						<td>
+							<select name="chip_name">
+								<option value="chip1">chip1</option>
+								<option value="chip2">chip2</option>
+								<option value="chip3">chip3</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th name="teach_redio">实验教学视频：</th>
+						<td>
+							<input type="file" />
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<input type="submit" value="新建实验"/>
+						</th>
+						<td>
+							<input type="reset" value="重置选项"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</center>
 
-    </div>
+	</div>
 </div>
 <!--底部区域-->
 <div class="footer"></div>

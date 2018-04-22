@@ -91,3 +91,9 @@
     text-align: center;
     font-size: 15px;
 }
+.contentAdministratorRight table{
+  border-collapse: collapse;
+}
+.contentAdministratorRight th, td {
+  padding: 20px;
+} 

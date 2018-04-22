@@ -13,8 +13,7 @@ sub{vertical-align:text-bottom}
 input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}
 legend{color:#000}
 #yui3-css-stamp.cssreset{display:none}
-a{text-decoration: none;
-    color: #fff;}
+a{text-decoration: none;color: #fff;}
 
 /*设置全局样式*/
 html{

@@ -18,6 +18,7 @@
     float: left;
     font-size: 30px;
     line-height: 60px;
+    margin-left: 80px;
 }
 .top_input{
     height: 33px;
@@ -26,81 +27,108 @@
     margin-top: 12px;
     margin-right: 20px;
 }
-.top_input input{
+/*.top_input input{
     height: 33px;
     width: 100%;
     font-size: 1.2em;
     margin: 0 auto;
     vertical-align: middle;
-}
+}*/
 .top_logo a{
-    color: #96b97d;
+    color: #339999;
 }
 .content{
-    background: red;
+    background: #339999;
     margin: 0 auto;
-    width: 1140px;
+    width: 100%;
     height: 500px;
+}
+.content .content_left{
+    width: 500px;
+    height: 60px;
+    float: left;
+    margin-left: 175px;
+    margin-top: 215px;
+    /*background-color: yellow;*/
+}
+.content .content_left p{
+    font-size: 44px;
+    color: #fff;
 }
 .content .login{
     float: right;
-    width: 400px;
+    width: 405px;
     height: 370px;
     margin-top: 75px;
-    background-color: #339999;
+    margin-right: 120px;
+    background-color: #ffffff;
 }
 .content .login .login_top{
     float: left;
-    width: 400px;
+    width: 100%;
     height: 100px;
+    color: #0099cc;
+
     /*background-color: blue;*/
 }
 .content .login .login_top>div{
-    width: 400px;
+    width: 100%;
     height: 50px;
 }
 .content .login .login_top>div:nth-child(1){
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     line-height: 50px;
+    width: 100%;
     /*background-color: #0099cc;*/
 }
 .content .login .login_top>div:nth-child(1)>h1{
     margin-left: 50px;
 }
 .content .login .login_top>div:nth-child(2){
+    width: 100%;
     font-size: 30px;
     line-height: 50px;
     text-align: center;
     background-color: #0099cc;
 }
 .content .login .login_top>div:nth-child(2)>h1{
-    color:#96b97d ;
+    color:#ffffff ;
 }
 .content .login .login_middle{
     float: left;
-    width: 400px;
+    width: 100%;
     height: 190px;
     /*background-color: skyblue;*/
 }
 .content .login .login_middle .account{
-    width: 300px;
-    margin: 40px auto;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 75px;
     /*background-color: yellow;*/
+    position: relative;
 }
-.content .login .login_middle .account span{
+.content .login .login_middle .account div{
     font-size: 23px;
 }
+
+.content .login .login_middle .account div img{
+    position: absolute;
+    margin-top: 3px;
+}
+
 .content .login .login_middle .account input{
-    margin: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 36px;
     width: 210px;
     height: 26px;
     font-size: 18px;
 }
 .content .login .login_middle .account button{
-    width: 100%;
+    width: 250px;
     height: 36px;
     font-size: 18px;
+    color: #ffffff;
+    background-color: #0099cc;
 }
 .content .login .login_bottom{
     float: left;
@@ -113,6 +141,6 @@
     line-height: 40px;
     margin-left: 45px;
 }
-.content .login .login_bottom a:hover{
+.content .login .login_bottom>a:hover{
     color: black;
 }

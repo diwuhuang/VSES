@@ -21,4 +21,8 @@ router.get('/student',function (req, res, next) {
 	res.render('students/student');
 });
 
+//渲染管理员登录界面
+router.get('/adminLogin',function (req, res, next) {
+	res.render('adminLogin');
+});
 module.exports = router;

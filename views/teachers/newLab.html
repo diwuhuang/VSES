@@ -40,14 +40,25 @@
 <div class="contentAdministrator">
 	<div class="contentAdministratorLeft">
 		<ul>
-			<li>
+			<li style="background-color: #339999">
 				<a href="/newLab">新建实验</a>
 			</li>
 			<li>
-				<a href="publishLab">发布实验</a>
+				<a href="/publishLab">发布实验</a>
 			</li>
-			<li>
-				<a href="checkLab">批改实验结果与实验报告</a>
+			<li class="dropdown">
+				<a href="/wholeWork">批改实验结果与实验报告</a>
+				<ul class="dropdown-content">
+					<li>
+						<a href="/wholeWork">全部作业</a>
+					</li>
+					<li>
+						<a href="/uncheckedWork">未改作业</a>
+					</li>
+					<li>
+						<a href="/checkedWork">已改作业</a>
+					</li>
+				</ul>
 			</li>
 		</ul>
 	</div>

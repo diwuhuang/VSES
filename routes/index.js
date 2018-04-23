@@ -38,8 +38,16 @@ router.get('/publishLab',function (req, res, next) {
 	res.render('teachers/publishLab');
 });
 
-router.get('/checkLab',function (req, res, next) {
-    res.render('teachers/checkLab');
+//渲染全部作业界面
+router.get('/wholeWork',function (req, res, next) {
+    res.render('teachers/wholeWork');
 });
-
+//渲染已改作业界面
+router.get('/checkedWork',function (req, res, next) {
+    res.render('teachers/checkedWork');
+});
+//渲染未改作业界面
+router.get('/uncheckedWork',function (req, res, next) {
+    res.render('teachers/uncheckedWork');
+});
 module.exports = router;

@@ -11,10 +11,6 @@ router.get('/administrator',function (req, res, next) {
 	res.render('admin/administrator');
 });
 
-//渲染教师界面
-router.get('/teacher',function (req, res, next) {
-	res.render('teachers/teacher');
-});
 
 //渲染学生界面
 router.get('/student',function (req, res, next) {
@@ -40,6 +36,10 @@ router.get('/newLab',function (req, res, next) {
 //渲染教师发布实验界面
 router.get('/publishLab',function (req, res, next) {
 	res.render('teachers/publishLab');
-
 });
+
+router.get('/checkLab',function (req, res, next) {
+    res.render('teachers/checkLab');
+});
+
 module.exports = router;

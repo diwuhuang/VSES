@@ -42,4 +42,10 @@ router.get('/publishLab',function (req, res, next) {
 	res.render('teachers/publishLab');
 
 });
+
+//渲染芯片属性界面
+router.get('/feature',function (req, res, next) {
+	res.render('chips/feature');
+
+});
 module.exports = router;

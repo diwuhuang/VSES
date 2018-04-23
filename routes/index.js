@@ -42,4 +42,8 @@ router.get('/publishLab',function (req, res, next) {
 	res.render('teachers/publishLab');
 
 });
+//渲染成绩查询界面
+router.get('/score',function(req,res,next){
+	res.render('students/score');
+});
 module.exports = router;

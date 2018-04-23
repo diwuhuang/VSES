@@ -11,10 +11,6 @@ router.get('/administrator',function (req, res, next) {
 	res.render('admin/administrator');
 });
 
-//渲染教师界面
-router.get('/teacher',function (req, res, next) {
-	res.render('teachers/teacher');
-});
 
 //渲染学生界面
 router.get('/student',function (req, res, next) {
@@ -40,7 +36,19 @@ router.get('/newLab',function (req, res, next) {
 //渲染教师发布实验界面
 router.get('/publishLab',function (req, res, next) {
 	res.render('teachers/publishLab');
+});
 
+//渲染全部作业界面
+router.get('/wholeWork',function (req, res, next) {
+    res.render('teachers/wholeWork');
+});
+//渲染已改作业界面
+router.get('/checkedWork',function (req, res, next) {
+    res.render('teachers/checkedWork');
+});
+//渲染未改作业界面
+router.get('/uncheckedWork',function (req, res, next) {
+    res.render('teachers/uncheckedWork');
 });
 //渲染成绩查询界面
 router.get('/score',function(req,res,next){

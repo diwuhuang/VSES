@@ -5,13 +5,6 @@
     <title>老师</title>
     <link rel="stylesheet" href="/stylesheets/base.css">
     <link rel="stylesheet" href="/stylesheets/teacher.css">
-    <style type="text/css">
-    	.contentAdministrator .contentAdministratorLeft ul li:nth-child(1){
-    background-color: #f6f4f0;}
-    	.contentAdministrator .contentAdministratorLeft ul li:nth-child(2){
-    background-color: #339999;}
-
-    </style>
 
 </head>
 <body>
@@ -36,7 +29,7 @@
                 <li><a href="/" class="nav_a">首页</a></li>
                 <li><a href="#" class="nav_a">实验视频</a></li>
                 <li><a href="#" class="nav_a">芯片属性</a></li>
-                <li><a href="/teacher" class="nav_a">教师</a></li>
+                <li><a href="/newLab" class="nav_a">教师</a></li>
                 <li><a href="/student" class="nav_a">学生</a></li>
                 <li><a href="/administrator" class="nav_a">管理员</a></li>
             </ul>
@@ -46,18 +39,29 @@
 <!--内容区域-->
 <div class="contentAdministrator">
 	<div class="contentAdministratorLeft">
-		<ul>
-			<li>
-				<a href="newLab">新建实验</a>
-			</li>
-			<li>
-				<a href="publishLab">发布实验</a>
-			</li>
-			<li>
-				<a href="#">批改实验结果与实验报告</a>
-			</li>
-		</ul>
-	</div>
+			<ul>
+				<li>
+					<a href="/newLab">新建实验</a>
+				</li>
+				<li style="background-color: #339999">
+					<a href="/publishLab">发布实验</a>
+				</li>
+				<li class="dropdown" >
+					<a href="/wholeWork">批改实验结果与实验报告</a>
+					<ul class="dropdown-content">
+						<li>
+							<a href="/wholeWork">全部作业</a>
+						</li>
+						<li>
+							<a href="/uncheckedWork">未改作业</a>
+						</li>
+						<li>
+							<a href="/checkedWork">已改作业</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	<div class="contentAdministratorRight">
 		<center>
 			<form>

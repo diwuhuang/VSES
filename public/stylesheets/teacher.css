@@ -81,7 +81,7 @@
 .contentAdministrator .contentAdministratorRight{
     width: 930px;
     height: 500px;
-    background-color: green;
+    background-color: whitesmoke;
     float: right;
 }
 .contentAdministrator .contentAdministratorLeft ul li{
@@ -92,8 +92,8 @@
     font-size: 15px;
 }
 
-.contentAdministrator .contentAdministratorLeft ul li:nth-child(1){
-    background-color: #339999;
+.contentAdministrator .contentAdministratorLeft ul li{
+    background-color: whitesmoke;
 }
 .contentAdministrator .contentAdministratorLeft ul li a{
     color: black;
@@ -107,5 +107,44 @@
 }
 .contentAdministratorRight th, td {
   padding: 20px;
-} 
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #339999;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 

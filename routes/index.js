@@ -36,4 +36,10 @@ router.get('/newLab',function (req, res, next) {
 	res.render('teachers/newLab');
 
 });
+
+//渲染教师发布实验界面
+router.get('/publishLab',function (req, res, next) {
+	res.render('teachers/publishLab');
+
+});
 module.exports = router;

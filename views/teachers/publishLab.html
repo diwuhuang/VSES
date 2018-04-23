@@ -5,6 +5,13 @@
     <title>老师</title>
     <link rel="stylesheet" href="/stylesheets/base.css">
     <link rel="stylesheet" href="/stylesheets/teacher.css">
+    <style type="text/css">
+    	.contentAdministrator .contentAdministratorLeft ul li:nth-child(1){
+    background-color: #f6f4f0;}
+    	.contentAdministrator .contentAdministratorLeft ul li:nth-child(2){
+    background-color: #339999;}
+
+    </style>
 
 </head>
 <body>
@@ -56,9 +63,13 @@
 			<form>
 				<table>
 					<tr>
-						<th>实验名：</th>
+						<th>选择实验：</th>
 						<td>
-							<input name="lab_name" type="text" />
+							<select name="lab_name">
+								<option value="lab1">lab1</option>
+								<option value="lab2">lab2</option>
+								<option value="lab3">lab3</option>
+							</select>
 						</td>
 					</tr>
 					<tr>
@@ -72,14 +83,18 @@
 						</td>
 					</tr>
 					<tr>
-						<th name="teach_redio">实验教学视频：</th>
-						<td>
-							<input type="file" />
-						</td>
-					</tr>
+						<th>设置起始时间： </th>
+						<td><input type ="date"></td>
+					   
+				    </tr>
+                    <tr>
+						<th>设置结束时间：</th>
+						<td><input type ="date"></td>
+					    
+				    </tr>
 					<tr>
 						<th>
-							<input type="submit" value="新建实验"/>
+							<input type="submit" value="发布实验"/>
 						</th>
 						<td>
 							<input type="reset" value="重置选项"/>

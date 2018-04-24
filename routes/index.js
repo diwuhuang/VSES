@@ -50,4 +50,10 @@ router.get('/checkedWork',function (req, res, next) {
 router.get('/uncheckedWork',function (req, res, next) {
     res.render('teachers/uncheckedWork');
 });
+
+//渲染芯片属性界面
+router.get('/feature',function (req, res, next) {
+	res.render('chips/feature');
+
+});
 module.exports = router;

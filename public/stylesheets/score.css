@@ -3,3 +3,43 @@ td{
     height: 30px;
     width: 300px;
 }
+.widget-body{
+    padding:15px;
+}
+.list-group{
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+.list-group li{
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #d8d1d1;
+}
+.pull-left{
+    float: left!important;
+}
+.list-group-item-waring{
+    color:#8a6d3b;
+    background-color: #fcf8e3;
+}
+.col-md-1{
+    width: 30%;
+}
+.col-sm-1{
+    position: relative;
+    min-height: 1px;
+    padding-right:15px ;
+    padding-left: 15px;
+}
+.list-group-item-success{
+    color: #339999;
+    background-color: #dff0d8;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.list-group-item-info{
+    color: #31708f;
+    background-color: #d9edf7;
+}

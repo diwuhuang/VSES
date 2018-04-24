@@ -81,8 +81,11 @@
 .contentAdministrator .contentAdministratorRight{
     width: 930px;
     height: 500px;
-    background-color: whitesmoke;
+    background-color: #339999;
     float: right;
+    color:black ;
+    font-size: larger;
+
 }
 .contentAdministrator .contentAdministratorLeft ul li{
     height: 35px;

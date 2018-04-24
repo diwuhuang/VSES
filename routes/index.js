@@ -17,6 +17,12 @@ router.get('/student',function (req, res, next) {
 	res.render('students/student');
 });
 
+//渲染教师界面
+router.get('/teacher',function (req, res, next) {
+	res.render('teachers/newLab');
+});
+
+
 //渲染管理员登录界面
 router.get('/adminLogin',function (req, res, next) {
 	res.render('adminLogin');
@@ -46,6 +52,7 @@ router.get('/wholeWork',function (req, res, next) {
 router.get('/checkedWork',function (req, res, next) {
     res.render('teachers/checkedWork');
 });
+
 //渲染未改作业界面
 router.get('/uncheckedWork',function (req, res, next) {
     res.render('teachers/uncheckedWork');
@@ -54,6 +61,10 @@ router.get('/uncheckedWork',function (req, res, next) {
 //渲染芯片属性界面
 router.get('/feature',function (req, res, next) {
 	res.render('chips/feature');
+});
 
+//渲染学生实验成绩界面
+router.get('/score',function(req,res,next){
+	res.render('students/score');
 });
 module.exports = router;

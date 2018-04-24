@@ -70,7 +70,7 @@
     max-width: 1140px;
     height: 500px;
     margin: 10px auto;
-    background-color: red;
+    background-color: white;
 }
 .contentAdministrator .contentAdministratorLeft{
     width: 200px;
@@ -81,7 +81,7 @@
 .contentAdministrator .contentAdministratorRight{
     width: 930px;
     height: 500px;
-    background-color: green;
+    background-color:white;
     float: right;
 }
 .contentAdministrator .contentAdministratorLeft ul li{
@@ -99,4 +99,79 @@
 }
 .contentAdministrator .contentAdministratorLeft ul li:hover a{
     opacity: 0.5;
+}
+
+#sub_menu_1,#sub_menu_2,#sub_menu_3{
+    display: none;
+}
+.conterRightFirst{
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    height: 30%;
+    background: white;
+    border: 5px,solid,black;
+    outline-style:solid;
+    outline-color:#339999;
+}
+.conterRightSecond{
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    height: 30%;
+    background: white;
+    border: 5px,solid,#339999;
+    outline-style:solid;
+    outline-color:#339999;
+}
+.conterRightThird{
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    height: 30%;
+    background: white;
+    border: 5px,solid,#339999;
+    outline-style:solid;
+    outline-color:#339999;
+}
+.conterRight_Left{
+    float: left;
+    background-color: white;
+    color:black; 
+    height: 113px;
+    width: 100px;
+}
+.conterRight_right{
+    float: left;
+    background-color: white;
+    height: 113px;
+    width: 800px;
+    font-size: 14px;
+    color: black;
+}
+.conterFont{
+    background: white;
+    float: left;
+    height: 30px;
+    width: 900px;
+    bottom: 0px;
+    text-align: right;
+}
+
+.img_class{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.button {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
 }

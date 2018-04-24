@@ -39,14 +39,92 @@
 <div class="contentAdministrator">
     <div class="contentAdministratorLeft">
         <ul>
-            <li><a href="#">课程管理</a></li>
-            <li><a href="#">实验用户管理</a></li>
+            <li onclick = "f('sub_menu_1')"><a href="#">课程管理</a></li>
+            <ul id = "sub_menu_1">
+                <li>添加课程</li>
+            </ul>
+            <li onclick = "f('sub_menu_2')"><a href="#">实验用户管理</a></li>
+            <ul id = "sub_menu_2">
+                <li>查看实验用户</li>
+                <li>修改用户信息</li>
+                <li>删除用户</li>
+            </ul>
+            <li onclick = "f('sub_menu_3')"><a href="#">教师管理</a></li>
+            <ul id = "sub_menu_3">
+                <li>查看教师信息</li>
+                <li>修改用户信息</li>
+                <li>删除用户</li>
+            </ul>
         </ul>
     </div>
+
     <div class="contentAdministratorRight">
+        <div class="conterRightFirst">
+            <div class = "conterRight_Left"><p id = "img_class">此处为课程图片</p></div>
+            <div class="conterRight_right">
+                <ul>
+                    <li>课程名称：计算机组成原理</li>
+                    <li>授课老师：Teacher A</li>
+                    <li>课程介绍：本课程算机组成原理》系统地介绍了计算机的基本组成原理和内部工作机制。《计算机组成原理》共分8章，主要内容分成两个部分：第1、2章介绍了计算机的基础知识；第3～8章介绍了计算机的各子系统（包括运算器、存储器、控制器、外部设备和输入输出子系统等）的基本组成原理、设计方法、相互关系以及各子系统互相连接构成整机系统的技术。</li>
+                </ul>    
+            </div>
+            <div class="conterFont">
+                <button class="button">编辑课程
+                </button>
+                <button class="button">删除课程
+                </button>
+            </div>
+        </div>
+        <div class="conterRightSecond">
+            <div class = "conterRight_Left"><p id = "img_class">此处为课程图片</p></div>
+            <div class="conterRight_right">
+                <ul>
+                    <li>课程名称：数字逻辑电路</li>
+                    <li>授课老师：Teacher B</li>
+                    <li>课程介绍：本门课程主要讲述电子线路中的数字技术部分。通过讲述逻辑电路的分析方法和设计方法以及常用器件等内容，使学生了解数字电路的特点，掌握分析方法和设计方法，获得数字电子技术方面的基本理论、基本知识和基本技能，具有分析和解决问题的能力。</li>
+                </ul>    
+            </div>
+             <div class="conterFont">
+              <button class="button">编辑课程
+                </button>
+                <button class="button">删除课程
+                </button>
+            </div>
+        </div>
+        <div class="conterRightThird">
+            <div class = "conterRight_Left"><p id = "img_class">此处为课程图片</p></div>
+            <div class="conterRight_right">
+                <ul>
+                    <li>课程名称：汇编语言实验</li>
+                    <li>授课老师：Teacher c</li>
+                    <li>课程介绍：汇编语言（assembly language）是一种用于电子计算机、微处理器、微控制器或其他可编程器件的低级语言，亦称为符号语言。在汇编语言中，用助记符（Mnemonics）代替机器指令的操作码，用地址符号（Symbol）或标号（Label）代替指令或操作数的地址。在不同的设备中，汇编语言对应着不同的机器语言指令集，通过汇编过程转换成机器指令。</li>
+                </ul>    
+            </div>
+             <div class="conterFont">
+                <button class="button">编辑课程
+                </button>
+                <button class="button">删除课程
+                </button>
+             </div>
+        </div>
     </div>
-</div>
+</div> 
+
 <!--底部区域-->
 <div class="footer"></div>
 </body>
+
+<script type="text/javascript"> 
+    function f(str){ 
+        var sub_menu = document.getElementById(str); 
+        var dis_v = sub_menu.style.display; 
+          
+        if(dis_v == "block") 
+          sub_menu.style.display = "none"; 
+        else 
+          sub_menu.style.display = "block"; 
+            
+      } 
+      
+  </script>
 </html>

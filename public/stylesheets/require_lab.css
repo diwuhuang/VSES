@@ -96,7 +96,7 @@
 }
 .content .contentRight{
     width: 930px;
-    height: 1000px;
+    height: 1440px;
     background-color: skyblue;
     float: right;
 }
@@ -126,6 +126,56 @@
     background-color: #1b6d85;
 }
 .content .contentRight .demand ul li{
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+}
+.content .contentRight .theory{
+    width: 100%;
+    height: 180px;
+    background-color: #36997d;
+}
+.content .contentRight .theory ul li{
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+}
+.content .contentRight .design{
+    width: 100%;
+    height: 180px;
+    background-color: #1b6d85;
+}
+.content .contentRight .design ul li{
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+}
+.content .contentRight .lab_contain{
+    width: 100%;
+    height: 180px;
+    background-color: #36997d;
+}
+.content .contentRight .lab_contain ul li{
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+}
+.content .contentRight .reporter{
+    width: 100%;
+    height: 180px;
+    background-color: #1b6d85;
+}
+.content .contentRight .reporter ul li{
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+}
+.content .contentRight .thinking{
+    width: 100%;
+    height: 180px;
+    background-color: #36997d;
+}
+.content .contentRight .thinking ul li{
     width: 100%;
     line-height: 40px;
     font-size: 18px;

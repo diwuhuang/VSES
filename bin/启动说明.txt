@@ -1,0 +1,1 @@
+按住shift键进入控制台，输入命令nodemon www，然后打开网址localhost:3000即可
